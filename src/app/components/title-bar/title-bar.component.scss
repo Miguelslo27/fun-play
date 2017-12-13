@@ -25,7 +25,6 @@ header {
 
     img.logo {
       width: $logo-width;
-      margin-right: 20px;
     }
 
     span {
@@ -37,6 +36,10 @@ header {
     h1 {
       justify-content: flex-start;
       padding: 0 20px;
+
+      img.logo {
+        margin-right: 20px;
+      }
     }
   }
 }

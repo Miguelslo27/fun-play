@@ -1,5 +1,5 @@
 <header
-  [ngClass]="{'align-left': stream.title != ''}">
+  [ngClass]="{'align-left': stream.title && stream.title != ''}">
   <h1>
     <img class="logo"
       src="/assets/img/logo.png"
