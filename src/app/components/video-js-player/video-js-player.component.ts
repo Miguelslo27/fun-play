@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'video-js-player',
@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./video-js-player.component.scss']
 })
 export class VideoJsPlayerComponent implements OnInit {
+  @ViewChild('videojsplayer') player;
 
-  constructor() { }
+  constructor() {
+    console.log(this.player);
+  }
 
   ngOnInit() {
   }
