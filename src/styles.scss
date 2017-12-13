@@ -1,0 +1,25 @@
+@import './imports';
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* For mobile phones: */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  body {
+    padding: 10px;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 1024px) {
+  body {
+    padding: 20px;
+  }
+}

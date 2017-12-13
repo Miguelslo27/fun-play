@@ -1,0 +1,42 @@
+@import '../../../variables';
+
+header {
+  background: $primary-color;
+  height: $header-height;
+
+  h1 {
+    /* Display */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Size */
+    height: $header-height;
+
+    /* Margin & Padding */
+    margin: 0;
+
+    /* Text */
+    font-weight: normal;
+    font-size: $title-text-size;
+    line-height: $header-height;
+    text-transform: uppercase;
+    color: $text-dark-bg-color;
+
+    img.logo {
+      width: $logo-width;
+      margin-right: 20px;
+    }
+
+    span {
+      
+    }
+  }
+
+  &.align-left {
+    h1 {
+      justify-content: flex-start;
+      padding: 0 20px;
+    }
+  }
+}
