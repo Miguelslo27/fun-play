@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-wrapper',
   templateUrl: './app-wrapper.component.html',
-  styleUrls: ['./app-wrapper.component.css']
+  styleUrls: ['./app-wrapper.component.scss']
 })
 export class AppWrapperComponent implements OnInit {
 
