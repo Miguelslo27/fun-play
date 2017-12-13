@@ -8,6 +8,7 @@ import { TitleBarComponent } from './components/title-bar/title-bar.component';
 import { VideoJsPlayerComponent } from './components/video-js-player/video-js-player.component';
 import { PlayListComponent } from './components/play-list/play-list.component';
 import { AdvertisingComponent } from './components/advertising/advertising.component';
+import { AppWrapperComponent } from './app-wrapper/app-wrapper.component';
 
 /* SERVICES */
 
@@ -24,7 +25,8 @@ import { ROUTER } from './app.routes';
     TitleBarComponent,
     VideoJsPlayerComponent,
     PlayListComponent,
-    AdvertisingComponent
+    AdvertisingComponent,
+    AppWrapperComponent
   ],
   imports: [
     ROUTER,
