@@ -33,10 +33,10 @@ header {
   &.align-left {
     h1 {
       justify-content: flex-start;
-      padding: 0 20px;
+      padding: $title-bar-title-padding;
 
       img.logo {
-        margin-right: 20px;
+        margin-right: $title-bar-title-img-margin;
       }
     }
   }

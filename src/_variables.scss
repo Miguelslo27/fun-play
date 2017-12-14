@@ -1,9 +1,32 @@
 /* Colors */
-$body-bg-color:       #f5f5f5;
-$primary-color:       #002E56;
-$text-dark-bg-color:  #fff;
+$body-bg-color:                     #f5f5f5;
+$primary-color:                     #002E56;
+$text-dark-bg-color:                #fff;
+$advertising-text-c:                #7B8FA0;
+$play-list-bg-color:                #fff;
+$play-list-link-more-videos-color:  #2184F8;
+$play-list-link-more-videos-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
 
 /* Sizes */
-$header-height:       62px;
-$title-text-size:     18px;
-$logo-width:          66px;
+$header-height:                     62px;
+$title-text-size:                   18px;
+$logo-width:                        66px;
+
+$advertising-max-h:                 50px;
+$advertising-tag-h:                 15px;
+$advertising-font-s:                8px;
+
+$play-list-item-h:                  80px;
+$play-list-item-m-h:                100px;
+$play-list-item-l-h:                120px;
+$play-list-link-more-videos-height: 40px;;
+$play-list-link-more-videos-font:   11px;
+
+/* Margin and paddings */
+$body-padding-m:                    10px;
+$body-padding-l:                    20px;
+$margin-between:                    10px;
+$title-bar-title-img-margin:        20px;
+$title-bar-title-padding:           0 20px;
+$play-list-between:                 1px;
+$play-list-title-padding:           10px;

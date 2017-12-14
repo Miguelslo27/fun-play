@@ -1,14 +1,16 @@
+@import '../../../variables';
+
 .advertising {
-  max-height: 50px;
+  max-height: $advertising-max-h;
   overflow: hidden;
 }
 
 .advertising-tag {
   display: block;
-  height: 15px;
-  line-height: 16px;
+  height: $advertising-tag-h;
+  line-height: $advertising-tag-h + 1px;;
   text-align: center;
   text-transform: uppercase;
-  font-size: 8px;
-  color: #7B8FA0;
+  font-size: $advertising-font-s;
+  color: $advertising-text-c;
 }
