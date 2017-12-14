@@ -1,0 +1,56 @@
+ul.stream-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1px;
+
+  li.stream-item {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #fff;
+    margin-bottom: 1px;
+
+    > div {
+      /* For mobile phones: */
+      height: 80px;
+      
+      /* For tablets: */
+      @media only screen and (min-width: 400px) {
+        height: 100px;
+      }
+
+      /* For desktop: */
+      @media only screen and (min-width: 600px) {
+        height: 120px;
+      }
+    }
+
+    .stream-thumbnail {
+      img {
+        height: 100%;
+      }
+    }
+
+    .stream-details {
+      padding: 10px;
+
+      h4 {
+        margin: 0;
+      }
+    }
+  }
+}
+
+a.button {
+  display: block;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  color: #2184F8;
+  height: 40px;
+  line-height: 40px;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}

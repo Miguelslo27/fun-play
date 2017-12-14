@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'play-list',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./play-list.component.scss']
 })
 export class PlayListComponent implements OnInit {
+
+  @Input('streamlist') streamList: any = [];
 
   constructor() { }
 
