@@ -2,23 +2,25 @@
 
 * {
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 /* For mobile phones: */
 body {
+  background-color: $body-bg-color;
   padding: 0;
   margin: 0;
 }
 
 /* For tablets: */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 301px) {
   body {
     padding: 10px;
   }
 }
 
 /* For desktop: */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 600px) {
   body {
     padding: 20px;
   }
